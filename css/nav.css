@@ -1,0 +1,57 @@
+
+/* Header Styles */
+header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+}
+
+header nav .logo-wrapper{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: 700;
+    color: #20c9bb;
+}
+
+header nav .nav-links-wrapper{
+    margin-right: 20px;
+}
+
+header nav .nav-links-wrapper ul{
+    list-style: none;
+} 
+
+header nav .nav-links-wrapper ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+
+header nav .nav-links-wrapper ul li a{
+    text-decoration: none;
+    color: #0BCEAF;
+    background-color: transparent;
+}
+
+header nav .nav-links-wrapper ul li a:hover {
+    color: #078571;
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+header nav .nav-links-wrapper ul li a:active {
+    color: #000;
+    text-decoration: none;
+    cursor: none;
+}
+

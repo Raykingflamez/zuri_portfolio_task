@@ -1,0 +1,167 @@
+/* Default styling */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    color: #6c757d;
+    scroll-behavior: smooth;
+}
+
+
+
+/* Main tag styles */
+main{
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+}
+
+/* Main Intro Style */
+main .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #20c9bb;
+}
+
+main .intro .intro-image{
+    /* height: 300px;
+    width: 300px; */
+    margin-right: 30px;
+    flex: 35%;
+    text-align: right;
+    
+}
+
+main .intro .intro-image img{
+    /* width: 100%;
+    height: 100%; */
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: rgba(121, 87, 68, 0.514);
+}
+
+main .intro .intro-text{
+    flex: 65%;
+    line-height: 1;
+    color: #ffffff;
+    font-size: 25px;
+    /* text-align: left; */
+}
+
+main .intro .intro-text .name{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+main h1{
+    font-size: 45px;
+    font-weight: 900;
+    color: #20c997;
+    text-align: center;
+}
+
+/* Main About Me Styles */
+
+main .about-me{
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main .about-me .about-me-image{
+    /* flex: 40%; */
+    height: 400px;
+    width: 400px;
+    padding-right: 30px;
+    
+    /* margin-right: 20px; */
+    
+}
+
+main .about-me .about-me-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url(./img/ray.png);
+    background-position: bottom center;
+    text-align: right;
+}
+
+main .about-me .about-me-details{
+    /* flex: 60%; */
+    text-align: left;
+
+}
+
+main .about-me .about-me-details h2{
+    font-size: 30px;
+    color: #000;
+}
+
+
+/* Hobbies style */
+
+main .hobbies,
+main .skills-container{
+    width: 70%;
+    margin: auto;
+    padding: 0;
+}
+
+
+/* Skill bar styles */
+main .skills-container ul{
+    list-style: none;
+}
+main .skills-container .skill-bar {
+    width: 90%;
+    background-color: #ddd;
+}
+
+main .skills-container .skill-bar .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 70%; background-color: #2196F3;} 
+.js {width: 35%; background-color: #f44336;} 
+.python {width: 20%; background-color: #808080;}
+
+
+/* Contact Me Button Styles */
+main .contact-me-button-wrapper{
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main .contact-me-button-wrapper button{
+    border: 0;
+    outline: 0;
+    height: 80px;
+    width: 150px;
+    background-color: #145f9ccc;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 7px;
+}
+
+main .contact-me-button-wrapper button:hover{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: 600;
+    transition: 0.5s ease-in-out;
+}

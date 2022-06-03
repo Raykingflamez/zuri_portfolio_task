@@ -1,0 +1,46 @@
+/* Footer Styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #20c9bb;
+    color: #fff;
+    height: 15vh;
+    /* text-align: center; */
+}
+
+footer .footer-links{
+    margin-top: 20px;
+}
+footer .footer-links span{
+    margin-right: 15px;
+}
+
+footer .footer-links span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+footer .footer-links span a:hover{
+    color: grey;
+    text-decoration: underline;
+    transition: 0.4s ease-in-out;
+}
+
+footer .footer-links span a:active,
+footer .footer-links span a:visited{
+    color: #000;
+}
+
+footer p .ray{
+    color: #6610f2;
+    font-weight: 700;
+}
+
+footer p .zuri{
+    color: #6f42c1;
+    font-weight: 600;
+}
+
