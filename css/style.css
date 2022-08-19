@@ -176,7 +176,7 @@ main .contact-me-button-wrapper button:hover{
 }
 
 
-#projects {
+.projects {
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -185,18 +185,18 @@ main .contact-me-button-wrapper button:hover{
     height: 40vh;
 }
 
-#projects ul li a{
+.projects ul li a{
     color: #73777a;
     transition: 0.3s ease-in-out;
     font-size: 17px;
 }
 
-#projects ul li a:hover{
+.projects ul li a:hover{
     color: #2e343a;
     font-weight: 600;
 }
 
-#contact {
+.contact {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -204,7 +204,7 @@ main .contact-me-button-wrapper button:hover{
     height: 20vh;
 }
 
-#contact a{
+.contact a{
     margin-right: 30px;
     font-size: 25px;
     color: #000;
@@ -212,7 +212,7 @@ main .contact-me-button-wrapper button:hover{
 }
 
 
-#contact a:hover{
+.contact a:hover{
     font-size: 30px;
     color: #6c757d;
 }
