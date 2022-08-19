@@ -41,12 +41,12 @@ header nav .nav-links-wrapper ul li a{
     text-decoration: none;
     color: #0BCEAF;
     background-color: transparent;
+    transition: 0.3s ease-in-out;
 }
 
 header nav .nav-links-wrapper ul li a:hover {
     color: #078571;
-    text-decoration: underline;
-    transition: 0.3s ease-in-out;
+    /* text-decoration: underline; */
 }
 
 header nav .nav-links-wrapper ul li a:active {
@@ -55,3 +55,28 @@ header nav .nav-links-wrapper ul li a:active {
     cursor: none;
 }
 
+
+@media only screen and (max-width: 768px) {
+    header nav{
+       margin: auto;
+        height: 10vh;
+    }
+
+    header nav .logo-wrapper{
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    header nav .nav-links-wrapper{
+        margin-right: 10px;
+    }
+
+    header nav .nav-links-wrapper ul li{
+        margin-right: 5px;
+    }
+
+    header nav .nav-links-wrapper ul li a{
+       font-size: 13px;
+    }
+}

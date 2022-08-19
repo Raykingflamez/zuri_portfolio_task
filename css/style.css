@@ -9,13 +9,20 @@ body{
     scroll-behavior: smooth;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
 
 
 /* Main tag styles */
 main{
     display: flex;
     flex-direction: column;
-    /* height: 100vh; */
+
 }
 
 /* Main Intro Style */
@@ -68,7 +75,7 @@ main h1{
 
 /* Main About Me Styles */
 
-main .about-me{
+.about-me{
     display: flex;
     height: 70vh;
     width: 100%;
@@ -77,7 +84,7 @@ main .about-me{
     margin-top: 20px;
 }
 
-main .about-me .about-me-image{
+.about-me .about-me-image{
     /* flex: 40%; */
     height: 400px;
     width: 400px;
@@ -87,7 +94,7 @@ main .about-me .about-me-image{
     
 }
 
-main .about-me .about-me-image img{
+.about-me .about-me-image img{
     height: 100%;
     width: 100%;
     border-radius: 5px;
@@ -96,13 +103,13 @@ main .about-me .about-me-image img{
     text-align: right;
 }
 
-main .about-me .about-me-details{
+.about-me .about-me-details{
     /* flex: 60%; */
     text-align: left;
 
 }
 
-main .about-me .about-me-details h2{
+.about-me .about-me-details h2{
     font-size: 30px;
     color: #000;
 }
@@ -137,7 +144,9 @@ main .skills-container .skill-bar .skills {
 .html {width: 90%; background-color: #4CAF50;} 
 .css {width: 70%; background-color: #2196F3;} 
 .js {width: 35%; background-color: #f44336;} 
-.python {width: 20%; background-color: #808080;}
+.python {width: 40%; background-color: #808080;}
+.django {width: 60%; background-color: #2e1313;}
+.react {width: 40%; background-color: #a15c3b;}
 
 
 /* Contact Me Button Styles */
@@ -164,4 +173,126 @@ main .contact-me-button-wrapper button:hover{
     color: #000;
     font-weight: 600;
     transition: 0.5s ease-in-out;
+}
+
+
+#projects {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+#projects ul li a{
+    color: #73777a;
+    transition: 0.3s ease-in-out;
+    font-size: 17px;
+}
+
+#projects ul li a:hover{
+    color: #2e343a;
+    font-weight: 600;
+}
+
+#contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+#contact a{
+    margin-right: 30px;
+    font-size: 25px;
+    color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+
+#contact a:hover{
+    font-size: 30px;
+    color: #6c757d;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* Main Intro Style */
+
+    /* main{
+        margin-top: 100px;
+        
+    } */
+
+    main .intro{
+        margin-top: 70px;
+        padding: 20px 0;
+        flex-direction: column;
+        height: 60vh;
+    }
+
+    main .intro .intro-image{
+        margin: auto;
+        flex: 50%;  
+    }
+
+    main .intro .intro-image img{
+        height: 250px;
+        width: 250px;
+    }
+
+    main .intro .intro-text{
+        flex: 50%;
+        line-height: 1.2;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    main .intro .intro-text .name{
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    #about h1{
+        font-size: 40px;
+        font-weight: 800;
+        margin-top: 20px;
+    }
+
+    /* Main About Me Styles */
+
+    .about-me{
+        /* height: 0vh; */
+        margin-top: 0;
+    }
+
+    main .about-me .about-me-image{
+        /* flex: 40%; */
+        height: 200px;
+        width: 200px;
+        padding-right: 20px;
+        
+        /* margin-right: 20px; */
+        
+    }
+
+    main .about-me .about-me-details{
+        /* flex: 60%; */
+        text-align: left;
+        padding: 10px;
+
+    }
+
+    main .about-me .about-me-details h2{
+        font-size: 20px;
+        color: #000;
+    }
+
+
+    main .skills-container{
+        width: 85%;
+    }
+
 }

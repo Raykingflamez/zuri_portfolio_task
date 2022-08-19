@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <link rel="shortcut icon" href="./img/icons8-r-48.png" type="image/x-icon">
     <title>Ray'sFolio || About Me</title>
 </head>
 <body>
@@ -18,10 +20,10 @@
             </div>
             <div class="nav-links-wrapper">
                 <ul>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="./public/signup-page.html">Sign Up</a></li>
-                    <li><a href="./public/login-page.html">Log In</a></li>
-                    <li><a href="./public/contact.html">Contact Me</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,81 +42,111 @@
             </div>
         </div>
         <!-- About Me Section -->
-        <h1>ABOUT ME</h1>
-        <div class="about-me">
-            <div class="about-me-image">
-                <img src="./img/ray.png" alt="Ray">
+        <section id="about">
+            <h1>ABOUT ME</h1>
+            <div class="about-me">
+                <div class="about-me-image">
+                    <img src="./img/ray.png" alt="Ray">
+                </div>
+                <div class="about-me-details">
+                    <h2>IT support Specialist & Budding Fullstack Developer</h2>
+                    <p>I'm a tech enthusiast, gadget otaku and a pretty down to earth kind of guy.</p>
+                    <p>Name: Obatola David</p>
+                    <p>Email: raykingflamez@gmail.com</p>
+                </div>
             </div>
-            <div class="about-me-details">
-                <h2>IT support Specialist & Budding Fullstack Developer</h2>
-                <p>I'm a tech enthusiast, gadget otaku and a pretty down to earth kind of guy.</p>
-                <p>Name: Obatola David</p>
-                <p>Email: raykingflamez@gmail.com</p>
+
+            <!-- Hobbies -->
+            <div class="hobbies">
+                <h2>Hobbies</h2>
+                <ol>
+                    <li>Reading</li>
+                    <li>Playing Online RPG games</li>
+                    <li>Surfing the web</li>
+                    <li>Outings (when affordable)</li>
+                    <li>Gazing at the night sky</li>
+                </ol>
             </div>
-        </div>
 
-        <!-- Hobbies -->
-        <div class="hobbies">
-            <h2>Hobbies</h2>
-            <ol>
-                <li>Reading</li>
-                <li>Playing Online RPG games</li>
-                <li>Surfing the web</li>
-                <li>Outings (when affordable)</li>
-                <li>Gazing at the night sky</li>
-            </ol>
-        </div>
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>
+                        <p>IT SUPPORT</p>
+                        <ul>
+                            <li>Operating Systems</li>
+                            <li>Hardware Repair</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p>HTML</p>
+                        <div class="skill-bar">
+                            <div class="skills html">90%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>CSS</p>
+                        <div class="skill-bar">
+                            <div class="skills css">70%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Javascript</p>
+                        <div class="skill-bar">
+                            <div class="skills js">35%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Python</p>
+                        <div class="skill-bar">
+                            <div class="skills python">40%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>Django</p>
+                        <div class="skill-bar">
+                            <div class="skills django">60%</div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>React</p>
+                        <div class="skill-bar">
+                            <div class="skills react">40%</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-        <div class="skills-container">
-            <h2>Skills</h2>
+        <section id="projects">
+            <h2>Projects</h2>
             <ul>
-                <li>
-                    <p>IT SUPPORT</p>
-                    <ul>
-                        <li>Operating Systems</li>
-                        <li>Hardware Repair</li>
-                    </ul>
-                </li>
-                <li>
-                    <p>HTML</p>
-                    <div class="skill-bar">
-                        <div class="skills html">90%</div>
-                    </div>
-                </li>
-                <li>
-                    <p>CSS</p>
-                    <div class="skill-bar">
-                        <div class="skills css">70%</div>
-                    </div>
-                </li>
-                <li>
-                    <p>Javascript</p>
-                    <div class="skill-bar">
-                        <div class="skills js">35%</div>
-                    </div>
-                </li>
-                <li>
-                    <p>Python</p>
-                    <div class="skill-bar">
-                        <div class="skills python">20%</div>
-                      </div>
-                </li>
+                <li><a href="https://monster-slayer-game-20.netlify.app/">Monster slayer game</a></li>
+                <li><a href="https://vancouver-cleanerss.netlify.app/">Vancouver Cleaners</a></li>
+                <li><a href="https://adoring-goldberg-df5355.netlify.app/">Relaxer App</a></li>
+                <li><a href="https://raykingflamez.github.io/zuri-huddle-landing-page-task/">Huddle Landing Page</a></li>
+                <li><a href="https://zuri-training.github.io/my_cms_team_11/">Webella</a></li>
+                
             </ul>
-        </div>
+        </section>
 
-        <div class="contact-me-button-wrapper">
-            <button><a href="./public/contact.html"></a> Contact Me</button>
-        </div>
+
+        <section id="contact">
+            <!-- <a href=""><i class="fa-brands fa-facebook-square"></i></a> -->
+            <a href="https://github.com/Raykingflamez"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/obatola-david-96a32378/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/raykingflamez"><i class="fa-brands fa-twitter"></i></a>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <div class="footer-links">
+        <!-- <div class="footer-links">
             <span><a href="#">About Me</a></span>
             <span><a href="./public/signup-page.html">Sign Up</a></span>
             <span><a href="./public/login-page.html">Log In</a></span>
             <span><a href="./public/contact.html">Contact Me</a></span>
-        </div>
+        </div> -->
         <p>Designed by <span class="ray">Raymond</span>. &copy;<span class="zuri">Zuri Training</span></p>
     </footer>
     
